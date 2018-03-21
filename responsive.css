@@ -1,6 +1,6 @@
 @media only screen and (max-width:480px) {
 header{
-	height: 65px;
+	height: 40px;
 	background: rgba(0,0,0,.5);
 }
 .ancho{
@@ -16,20 +16,32 @@ header{
 	margin: 0;
 }
 .logo p a{
-	width: 100%;
-	font-size: 26px;
-	margin: 0;
+	display: none;
+	/*width: 100%;
+	font-size: 22px;
+	margin: 0;*/
 }
 nav{
 	width: 100%;
 	text-align: center;
-	padding: 0;
-	margin: 0;
+	margin-top: -55px;
+}
+nav ul li{
+	display: inline;
 }
 nav ul li a{
-	font-size: 12px;
-	padding-left: 1px;
-	letter-spacing: 0px;
+	font-size: 10.5px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-left: 4px;
+	border-bottom: 1px solid #f6b26b;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 .wap{
 	width: 80%;
@@ -73,7 +85,7 @@ nav ul li a{
 	font-size: 12px;
 }
 .wap{
-	width: 70%;
+	width: 80%;
 	margin: auto;
 	clear: both;
 }
