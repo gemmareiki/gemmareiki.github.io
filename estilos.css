@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	height: 65px;
+	position: fixed;
+	z-index: 10;
+}
+.ancho{
+	width: 90%;
+	height: 65px;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 65px;
+	float: left;
+	padding-top: 7px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: #fff;
+	font-size: 28px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Merienda', cursive;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: none;
+	/*padding-left: 15px; esto estaba antes del chamullo del recuadro*/
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-family: 'cabin', sans-serif;
+	/*para poner un recuadro alrededor del texto*/
+	margin-left: 10px;
+	border-bottom: 2px solid #f6b26b;
+	border-top: 2px solid #f6b26b;
+	border-right: 2px solid #f6b26b;
+	border-left: 2px solid #f6b26b;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+nav ul li a:hover{
+	color: #f6b26b;
+}
+
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+	margin-top: -80px;
+}
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+	font-family: 'cabin', sans-serif;
+}
+.datos-contacto li i{
+	color: #85c34a;
+	font-size: 50px;
+}
+/*hr{
+  	height: 3px;
+  	background-color: #f6b26b;
+  	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
+}*/
+.limpia{
+	clear: both;
+}
+
+footer{
+	clear: both;
+	margin-top: 50px;
+	background: #EEEEEE;
+	color: #424242;
+	text-align: center;
+	padding: 30px;
+	font-family: 'cabin', sans-serif;
+}
+
+/*@font-face{
+	font-family: merienda;
+	src: url(fuentes/Merienda-Regular.ttf);
+}
+@font-face{
+	font-family: cabin;
+	src: url(fuentes/Cabin-Regular.ttf);
+}
+@font-face{
+	font-family: indie;
+	src: url(fuentes/IndieFlower.ttf);
+}*/

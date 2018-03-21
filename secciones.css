@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Indie+Flower|Merienda');
+*{
+	box-sizing: border-box;
+}
+
+h1, h2, h4, h5, h6 {
+	text-transform: none;
+	color: #444;
+	font-family: 'cabin', sans-serif;
+	letter-spacing: 1px;
+}
+h2{
+	font-size: 26px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h3{
+	font-family: 'cabin', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	padding-top:20px; 
+	font-weight: normal;
+	color: #424242;
+}
+h4{
+	margin-top: 15px;
+	font-size: 18px;
+}
+h5{
+	font-family: 'cabin', sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: 12px;
+}
+p{
+	color: #424242;
+	font-family: 'cabin', sans-serif;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.wap{
+	width: 70%;
+	margin: auto;
+	clear: both;
+}
+.seccion{
+	margin-top: 10px;
+	padding-top: 100px;
+	text-align: justify;
+}
+.seccion1{
+	margin-top: 10px;
+	padding-top: 100px;
+	text-align: justify;
+}
+.seccion2{
+	margin-top: 10px;
+	padding-top: 100px;
+	text-align: justify;
+}
+.seccion3{
+	margin-top: 10px;
+	padding-top: 100px;
+	text-align: justify;
+}
+.seccion3 p{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	margin-top: 30px;
+	margin-left: 90px;
+	margin-right: 90px;
+	border-bottom: 2px solid #acf6f6;
+	border-top: 2px solid #acf6f6;
+	border-right: 2px solid #efa2a4;
+	border-left: 2px solid #efa2a4;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.seccion4{
+	margin-top: 10px;
+	padding-top: 100px;
+	text-align: center;
+}
+.espacio{
+	margin-top: 15px;
+}
