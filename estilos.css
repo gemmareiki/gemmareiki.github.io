@@ -45,11 +45,11 @@ nav ul li a{
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: none;
-	/*padding-left: 15px; esto estaba antes del chamullo del recuadro*/
+	padding-left: 12px;
 	font-weight: bold;
 	letter-spacing: 1.5px;
 	font-family: 'cabin', sans-serif;
-	/*para poner un recuadro alrededor del texto*/
+	/*para poner un recuadro alrededor del texto
 	margin-left: 10px;
 	border-bottom: 2px solid #f6b26b;
 	border-top: 2px solid #f6b26b;
@@ -58,7 +58,7 @@ nav ul li a{
 	padding-bottom: 2px;
 	padding-top: 2px;
 	padding-right: 2px;
-	padding-left: 2px;
+	padding-left: 2px;*/
 }
 nav ul li a:hover{
 	color: #f6b26b;
