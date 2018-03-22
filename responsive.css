@@ -55,7 +55,7 @@ nav ul li a{
 
 @media only screen and (min-width:481px) and (max-width:768px) {
 header{
-	height: 65px;
+	height: 60px;
 	background: rgba(0,0,0,.5);
 }
 .ancho{
@@ -71,18 +71,29 @@ header{
 	margin: 0;
 }
 .logo p a{
-	width: 100%;
-	font-size: 28px;
-	margin: 0;
+	display: none;
+	/*width: 100%;
+	font-size: 22px;
+	margin: 0;*/
 }
 nav{
 	width: 100%;
 	text-align: center;
-	padding: 0;
-	margin: 0;
+	margin-top: -42px;
 }
 nav ul li a{
-	font-size: 12px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-left: 10px;
+	border-bottom: 0;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 .wap{
 	width: 80%;
