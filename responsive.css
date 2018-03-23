@@ -1,6 +1,6 @@
 @media only screen and (max-width:480px) {
 header{
-	height: 60px;
+	height: 62px;
 	background: rgba(0,0,0,.5);
 }
 .ancho{
@@ -30,7 +30,7 @@ nav ul li{
 	display: inline;
 }
 nav ul li a{
-	font-size: 14px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	font-weight: bold;
 	margin-left: 6px;
