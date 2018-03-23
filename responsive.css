@@ -24,7 +24,7 @@ header{
 nav{
 	width: 100%;
 	text-align: center;
-	margin-top: -55px;
+	margin-top: -58px;
 }
 nav ul li{
 	display: inline;
@@ -34,6 +34,7 @@ nav ul li a{
 	letter-spacing: 1px;
 	font-weight: bold;
 	margin-left: 10px;
+	line-height: 26px;
 	border-bottom: 0;
 	border-top: 0;
 	border-right: 0;
