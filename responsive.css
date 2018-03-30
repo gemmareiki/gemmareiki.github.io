@@ -125,6 +125,30 @@
 		padding-right: 0;
 		padding-left: 0;
 	}
+	.ancho-letras{
+		top: 160px;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		z-index: 1;
+	}
+	.letras-slider{
+		width: 90%;
+		margin: auto;
+	}
+	.letras-slider h1{
+		color: #fff;
+		font-family: 'Merienda', cursive;
+		font-size: 32px;
+		padding-top: 14px;
+	}
+	.letras-slider p{
+		color: #000;
+		font-family: 'Merienda', cursive;
+		font-size: 14px;
+		font-weight: bold;
+		padding-top: 34px;
+	}
 	.wap{
 		width: 80%;
 		margin: auto;
