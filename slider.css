@@ -1,0 +1,23 @@
+.ancho-letras{
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.letras-slider{
+    width: 80%;
+    margin: auto;
+}
+.letras-slider h1{
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    padding-top: 40px;
+}
+.letras-slider p{
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+    padding-top: 40px;
+}
